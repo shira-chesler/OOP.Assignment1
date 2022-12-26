@@ -1,4 +1,4 @@
-package observer;
+package main.observer;
 
 public class ConcreteMember implements Member{
     private UndoableStringBuilder myusb;

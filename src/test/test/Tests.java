@@ -1,11 +1,9 @@
-package observer;
+package test;
 
+import main.observer.ConcreteMember;
+import main.observer.GroupAdmin;
+import main.observer.UndoableStringBuilder;
 import org.junit.jupiter.api.Test;
-import org.junit.platform.commons.logging.Logger;
-import org.junit.platform.commons.logging.LoggerFactory;
-
-import java.io.IOException;
-import java.util.logging.FileHandler;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNull;

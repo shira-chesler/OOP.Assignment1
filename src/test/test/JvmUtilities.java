@@ -1,4 +1,4 @@
-package observer;
+package test;
 
 import org.openjdk.jol.info.GraphLayout;
 
