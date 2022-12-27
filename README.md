@@ -19,7 +19,7 @@ functions to measure the size and follow the footprints of the classes objects.
 we added extra comments in the code below to showcase more clearly the running process.
 the code:
 
-![Screenshot (81)](https://user-images.githubusercontent.com/24610228/209661109-c6b0e434-2b47-48de-9536-20d99c804f05.png)
+![Screenshot_20221227_202723_Gallery](https://user-images.githubusercontent.com/98814442/209716196-8035dd21-5992-4cd4-9237-82ac6f8ec83d.jpg)
 
 the output:
 
