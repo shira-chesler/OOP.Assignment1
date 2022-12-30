@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="4e12d9dc-286d-4e99-a457-a7dada783a4e" name="Changes" comment="basic classes of asignment">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/observer/ConcreteMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/observer/ConcreteMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/observer/GroupAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/observer/GroupAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +99,7 @@
       <recent name="observer" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.Tests (1)">
+  <component name="RunManager" selected="JUnit.Tests.testToStringGroupAdmin">
     <configuration name="Tests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP.Assignment1" />
       <extension name="coverage">
@@ -143,33 +146,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testToStringConcreteMember" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP.Assignment1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="observer" />
-      <option name="MAIN_CLASS_NAME" value="observer.Tests" />
-      <option name="METHOD_NAME" value="testDelete" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Tests" />
+      <option name="METHOD_NAME" value="testToStringConcreteMember" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testUndo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.testToStringGroupAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="OOP.Assignment1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="observer.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="observer" />
-      <option name="MAIN_CLASS_NAME" value="observer.Tests" />
-      <option name="METHOD_NAME" value="testUndo" />
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.Tests" />
+      <option name="METHOD_NAME" value="testToStringGroupAdmin" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -177,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.testToStringGroupAdmin" />
+        <item itemvalue="JUnit.Tests.testToStringConcreteMember" />
         <item itemvalue="JUnit.Tests (1)" />
         <item itemvalue="JUnit.Tests.printJVMUtilities (1)" />
         <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testUndo" />
-        <item itemvalue="JUnit.Tests.testDelete" />
       </list>
     </recent_temporary>
   </component>

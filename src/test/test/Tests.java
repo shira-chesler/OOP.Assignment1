@@ -102,4 +102,22 @@ public class Tests {
         m1.update(str);
         assertEquals(str, m1.getCopy());
     }
+
+    @Test
+    void testToStringConcreteMember() {
+        ConcreteMember Shulla = new ConcreteMember(new UndoableStringBuilder().append("no updates yet"), "Shulla");
+        System.out.println(Shulla);
+    }
+
+    @Test
+    void testToStringGroupAdmin() {
+        ConcreteMember Shulla = new ConcreteMember(new UndoableStringBuilder().append("no updates yet"), "Shulla");
+        ConcreteMember Shoshana = new ConcreteMember("Shoshana");
+        ConcreteMember Shmulik = new ConcreteMember("Shmulik");
+        GroupAdmin shPeople = new GroupAdmin(new UndoableStringBuilder().append("people that start with 'sh' are the best!"));
+        shPeople.register(Shulla);
+        shPeople.register(Shoshana);
+        shPeople.register(Shmulik);
+        System.out.println(shPeople);
+    }
 }

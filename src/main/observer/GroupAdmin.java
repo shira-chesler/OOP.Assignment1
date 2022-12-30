@@ -107,4 +107,14 @@ public class GroupAdmin implements Sender {
     public ArrayList<Member> getMembers() {
         return this.members;
     }
+
+    /**
+     * creates a string for printing
+     * @return String of list of members
+     */
+    @Override
+    public String toString() {
+        System.out.println("Group's latest update (UndoableStringBuilder): "+this.usb);
+        return members.toString();
+    }
 }
